@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans";
+  box-sizing: border-box;
+}
+:root {
+  --color-white: #fff;
+  --color-cinder: #111517;
+  --color-alabaster:#FAFAFA;
+  --color-BattleshipGrey:#848484;
+}
+
+@font-face {
+  src: url("../font/NunitoSans_10pt-ExtraBold.ttf");
+  font-family: "Nunito Sans";
+  font-weight: 800;
+}
+@font-face {
+  src: url("../font/NunitoSans_10pt-SemiBold.ttf");
+  font-family: "Nunito Sans";
+  font-weight: 600;
+}
+@font-face {
+    src: url("../font/NunitoSans_7pt-Regular.ttf");
+    font-family: "Nunito Sans";
+    font-weight: 400;
+}
+
+/* Header Section */
+.header-content {
+  width: 100%;
+  height: 80px;
+  background: var(--color-white, #fff);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container--title > h1 {
+  color: var(--color-cinder, #111517);
+  font-size: 24px;
+  font-weight: 800;
+}
+.header-container--theme {
+  display: flex;
+  gap: 8px;
+}
+.light-theme--moon {
+  width: 20px;
+  height: 20px;
+}
+.light-theme--title {
+  color: var(--color-cinder, #111517);
+  font-size: 16px;
+  font-weight: 600;
+}
+.main-content{
+    width: 100%;
+    height: 100dvh;
+    background-color: var(--color-alabaster,#FAFAFA);
+}
+
+/* Main Section */
+
+.main-header--section{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-header--container{
+    width: 85%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-content{
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    background: var(--color-white,#fff);
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+}
+.search-image{
+    width: 80px;
+    height: 100%;
+    border-style: none;
+    background: var(--color-white,#fff);
+    border-radius: 5px;
+}
+.search-image>img{
+    width: 18px;
+    height: 18px;
+}
+.search-input{
+    width: 400px;
+    height: 100%;
+    color: var(--color-BattleshipGrey,#848484);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-style: none;
+}
+.select-section{
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    background: var(--color-white,#fff);
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    border-style: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
